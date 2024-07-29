@@ -17,7 +17,7 @@ class ActorSerializer(serializers.ModelSerializer):
 
 class CinemaHallSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Genre
+        model = CinemaHall
         fields = ["id", "name", "rows", "seats_in_row", "capacity"]
 
 
